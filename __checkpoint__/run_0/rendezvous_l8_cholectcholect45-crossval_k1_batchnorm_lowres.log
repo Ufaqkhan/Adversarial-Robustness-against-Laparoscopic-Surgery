@@ -1,0 +1,90 @@
+--------------------------------------------------
+Test Results
+Per-category AP: 
+I   : [0.91843554 0.92405256 0.98143813 0.78446979 0.88319827 0.89937671]
+V   : [0.71537077 0.88638462 0.94240643 0.75542517 0.83511411 0.77717214
+ 0.74146551 0.33217476 0.25224052 0.51100297]
+T   : [0.87548419 0.6725191  0.65706812 0.62322298 0.32539818        nan
+ 0.74805687 0.328744   0.83572736 0.76021298 0.73547226 0.53123162
+ 0.29220381 0.83363805 0.46871965]
+IV  : [0.70383641 0.95455437 0.00327242        nan 0.03906761        nan
+        nan        nan        nan        nan 0.0126778  0.90253399
+        nan        nan 0.11039385        nan        nan 0.07691081
+        nan 0.49819689        nan        nan        nan        nan
+        nan        nan]
+IT  : [0.92665643 0.05143811 0.01984537        nan        nan 0.15721149
+        nan 0.25457714 0.02859147 0.92883426 0.03906761        nan
+        nan        nan        nan        nan        nan        nan
+        nan        nan        nan        nan        nan        nan
+ 0.81097291        nan 0.23641405 0.05392302        nan        nan
+        nan        nan 0.14848976 0.11039385        nan        nan
+ 0.01173848        nan        nan        nan        nan        nan
+        nan        nan        nan 0.4999786         nan        nan
+        nan        nan        nan        nan        nan        nan
+        nan        nan        nan        nan        nan]
+IVT : [       nan 0.00327753        nan        nan 0.00919099        nan
+        nan 0.22794599        nan        nan        nan        nan
+ 0.92883426        nan        nan        nan 0.05121564 0.92835773
+ 0.02864289 0.15721149        nan 0.2980547         nan        nan
+        nan        nan        nan        nan        nan        nan
+        nan        nan        nan        nan        nan        nan
+        nan        nan        nan        nan        nan        nan
+        nan        nan        nan        nan        nan        nan
+        nan        nan        nan        nan        nan        nan
+        nan        nan        nan 0.05392302 0.23645956        nan
+ 0.8058955         nan 0.14888605 0.0134319         nan        nan
+        nan        nan        nan 0.01173848        nan        nan
+        nan        nan        nan        nan        nan        nan
+        nan 0.4999786         nan        nan        nan        nan
+        nan        nan        nan        nan        nan        nan
+        nan        nan        nan        nan 0.03906761        nan
+ 0.11039385        nan        nan        nan]
+--------------------------------------------------
+Mean AP:  I  |  V  |  T  |  IV  |  IT  |  IVT 
+:::::: : 0.8985 | 0.6749 | 0.6205 | 0.3668 | 0.2852 | 0.2529 
+==================================================
+--------------------------------------------------
+Adversarial Test Results
+Per-category AP: 
+I   : [0.83382125 0.5962159  0.87498669 0.49546557 0.47572262 0.58860142]
+V   : [0.52507972 0.8017191  0.82565263 0.47952501 0.43824253 0.47220901
+ 0.44445859 0.22888365 0.21694888 0.33723954]
+T   : [0.8341366  0.62516264 0.62870912 0.52288444 0.17820477        nan
+ 0.43937161 0.21678378 0.72701358 0.7140299  0.66790393 0.41611423
+ 0.28494667 0.57062433 0.3438977 ]
+IV  : [0.09365106 0.77433815 0.01843521        nan 0.02015227        nan
+        nan        nan        nan        nan 0.00567316 0.58688527
+        nan        nan 0.07437184        nan        nan 0.00677494
+        nan 0.01784022        nan        nan        nan        nan
+        nan        nan]
+IT  : [0.67333928 0.05693544 0.04526434        nan        nan 0.0736454
+        nan 0.07538371 0.01080864 0.0567034  0.02015227        nan
+        nan        nan        nan        nan        nan        nan
+        nan        nan        nan        nan        nan        nan
+ 0.4433286         nan 0.06513079 0.0563256         nan        nan
+        nan        nan 0.0844194  0.07437184        nan        nan
+ 0.00671615        nan        nan        nan        nan        nan
+        nan        nan        nan 0.01679173        nan        nan
+        nan        nan        nan        nan        nan        nan
+        nan        nan        nan        nan        nan]
+IVT : [       nan 0.01843521        nan        nan 0.0253247         nan
+        nan 0.06300671        nan        nan        nan        nan
+ 0.0567034         nan        nan        nan 0.06474648 0.61942969
+ 0.02653924 0.0736454         nan 0.07170166        nan        nan
+        nan        nan        nan        nan        nan        nan
+        nan        nan        nan        nan        nan        nan
+        nan        nan        nan        nan        nan        nan
+        nan        nan        nan        nan        nan        nan
+        nan        nan        nan        nan        nan        nan
+        nan        nan        nan 0.0563256  0.06513079        nan
+ 0.45610358        nan 0.0844194  0.00520594        nan        nan
+        nan        nan        nan 0.00671615        nan        nan
+        nan        nan        nan        nan        nan        nan
+        nan 0.01679173        nan        nan        nan        nan
+        nan        nan        nan        nan        nan        nan
+        nan        nan        nan        nan 0.02015227        nan
+ 0.07437184        nan        nan        nan]
+--------------------------------------------------
+Mean AP:  I  |  V  |  T  |  IV  |  IT  |  IVT 
+:::::: : 0.6441 | 0.4770 | 0.5121 | 0.1776 | 0.1173 | 0.1003 
+==================================================
